@@ -1,0 +1,47 @@
+{
+  "status": "success",
+  "count": 3,
+  "data": [
+    {
+      "order_id": "00101",
+      "order_date": "2026-11-13",
+      "amount": 250.50,
+      "paid": true,
+      "customer": {
+        "name": "Asha",
+        "city": "Chennai",
+        "state": "TN"
+      },
+      "items": [
+        {"sku": "TSH-01", "qty": 2, "price": 100.00},
+        {"sku": "CAP-03", "qty": 1, "price": 50.50}
+      ]
+    },
+    {
+      "order_id": "00102",
+      "order_date": "2026-11-12",
+      "amount": null,
+      "paid": false,
+      "customer": {
+        "name": "Ravi",
+        "city": "Bengaluru",
+        "state": null
+      },
+      "items": []
+    },
+    {
+      "order_id": "00103",
+      "order_date": "2026-11-01",
+      "amount": 99.99,
+      "paid": true,
+      "customer": {
+        "name": "Meena",
+        "city": "Coimbatore",
+        "state": "TN"
+      },
+      "items": [
+        {"sku": "BAG-02", "qty": 1, "price": 99.99}
+      ]
+    }
+  ]
+}
