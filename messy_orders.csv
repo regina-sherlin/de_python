@@ -1,0 +1,7 @@
+ Order ID ,Customer Name,City, Amount ,Order Date
+00101,Asha,"Chennai, TN",250.50,13/11/2026
+00102,Ravi,Bengaluru,NULL,12/11/2026
+00103,Meena,"Coimbatore, TN",99.99,01/11/2026
+00104,Karthik,Madurai,N/A,05/11/2026
+00105,Divya,"Hyderabad, TS",-,10/11/2026
+00106,Priya,Chennai,500.00,02/11/2026
