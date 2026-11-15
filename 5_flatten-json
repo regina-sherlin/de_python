@@ -1,0 +1,13 @@
+import pandas as pd 
+import json
+
+with open('orders.json', encoding='utf-8') as file:
+    data= json.load(file)
+
+df = pd.json_normalize(data['data'])
+print(df)
+
+print(df.columns)
+
+df.columns = df.columns.str.strip().str.lower().str.replace('.','_')
+print(df['items'])
